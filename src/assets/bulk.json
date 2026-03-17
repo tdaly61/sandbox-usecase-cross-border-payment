@@ -1,0 +1,59 @@
+[
+  {
+    "requestId": "8238482323",
+    "creditParty": [
+      {
+        "key": "msisdn",
+        "value": "8837461856"
+      }
+    ],
+    "debitParty": [
+      {
+        "key": "accountnumber",
+        "value": "003001003874120160"
+      }
+    ],
+    "paymentMode": "closedLoop",
+    "amount": 820.00,
+    "currency": "SGD",
+    "descriptionText": "Test Payment"
+  },
+  {
+    "requestId": "2348324823",
+    "creditParty": [
+      {
+        "key": "msisdn",
+        "value": "32131461856"
+      }
+    ],
+    "debitParty": [
+      {
+        "key": "accountnumber",
+        "value": "21314556003874120160"
+      }
+    ],
+    "paymentMode": "gsma",
+    "amount": 20.00,
+    "currency": "SGD",
+    "descriptionText": "Test Payment"
+  },
+  {
+    "requestId": "23432344823",
+    "creditParty": [
+      {
+        "key": "msisdn",
+        "value": "32131433856"
+      }
+    ],
+    "debitParty": [
+      {
+        "key": "accountnumber",
+        "value": "21314522203874120160"
+      }
+    ],
+    "paymentMode": "mojaloop",
+    "amount": 20.00,
+    "currency": "SGD",
+    "descriptionText": "Test Payment"
+  }
+]
