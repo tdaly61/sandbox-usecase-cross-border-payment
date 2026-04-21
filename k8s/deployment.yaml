@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cross-border-mifos
+  namespace: cross-border-mifos
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cross-border-mifos
+  template:
+    metadata:
+      labels:
+        app: cross-border-mifos
+    spec:
+      containers:
+        - name: frontend
+          image: ghcr.io/tdaly61/sandbox-usecase-cross-border-payment:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+              name: http

@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: cross-border-mifos
+  namespace: cross-border-mifos
+spec:
+  selector:
+    app: cross-border-mifos
+  ports:
+    - port: 80
+      targetPort: 80
